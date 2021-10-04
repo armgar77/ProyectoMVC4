@@ -16,6 +16,13 @@ namespace ProyectoMVC4
             CreateHostBuilder(args).Build().Run();
         }
 
+        int a = 4;
+        int b = 5;
+
+
+        int Resultado = 9;
+       
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
